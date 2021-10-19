@@ -8,3 +8,5 @@ player's career. The radar chart depicts the player's stats compared to the aver
 For the frontend, I used Flask. I used a simple search bar to search for any player. There are two buttons to go to either chart: the line graph and radar chart.
 
 ![alt text](https://i.snipboard.io/gKZjWc.jpg)
+![alt text](https://i.snipboard.io/lu8fg4.jpg)
+![alt text](https://i.snipboard.io/nPwJMb.jpg)
