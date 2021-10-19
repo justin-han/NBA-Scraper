@@ -1,0 +1,10 @@
+import requests
+from bs4 import BeautifulSoup
+
+url = 'https://www.reuters.com/site-search/?query=zoom'
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36'}
+r = requests.get(url, headers)
+soup = BeautifulSoup(r.content, 'html.parser')
+
+article = soup.find_all('div', class_ = 'SearchResults__sectionContainer___Gd1afW')
+print(len(article))

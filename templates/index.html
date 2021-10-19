@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+
+<body style="font-family:arial, sans-serif">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+    <h1 style="background:lightblue;padding:10px">
+            NBA Player Data Visualization
+    </h1>
+    
+    <p>Type NBA Player Name for Data Visualization: </p>
+    <form action = "/" method="POST">
+        <input type="text" name="text" autocapitalize="off">
+        <input type="submit" value = "Submit">
+    </form>
+    
+    <h1><a href="chart1" class="button">PPG, APG, RPG Throughout Career Visualization</a></h1>
+    <h1><a href="chart2" class="button">Radar Chart Visualization for All 5 Statistical Categories</a></h1>
+
+</body>
+</html> 
+
