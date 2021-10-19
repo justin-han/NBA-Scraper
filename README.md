@@ -9,4 +9,4 @@ For the frontend, I used Flask. I used a simple search bar to search for any pla
 
 ![alt text](https://i.snipboard.io/gKZjWc.jpg)
 ![alt text](https://i.snipboard.io/lu8fg4.jpg)
-
+![alt text](https://i.snipboard.io/nPwJMb.jpg)
