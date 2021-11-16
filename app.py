@@ -90,11 +90,11 @@ def line_graph(season, points, assists, rebounds):
 
 def radar_chart(points, assists, rebounds, steals, blocks):
     categories = ['Points', 'Assists', 'Rebounds', 'Steals', 'Blocks']
-    avg_points = standardize(points, 30.12)
-    avg_assists = standardize(assists, 11.19)
-    avg_rebounds = standardize(rebounds, 16.22)
-    avg_steals = standardize(steals, 2.71)
-    avg_blocks = standardize(blocks, 3.5)
+    avg_points = standardize(points, 30)
+    avg_assists = standardize(assists, 11)
+    avg_rebounds = standardize(rebounds, 16)
+    avg_steals = standardize(steals, 2)
+    avg_blocks = standardize(blocks, 3)
     all_averages = [avg_points, avg_assists, avg_rebounds, avg_steals, avg_blocks]
 
     trace = go.Scatterpolar(r = all_averages, theta = categories, fill = 'toself')
